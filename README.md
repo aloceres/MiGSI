@@ -1,6 +1,10 @@
 # MiGSI
 A simple batch file to install a GSI on a Xiaomi device (if the user has no knowledge in the commands)
 
+## Requirement
+
+- platform_tools in PATH
+
 ## Download + Setup
 
 1. Download the correct batch file from directory. More info in Releases tab.
