@@ -3,7 +3,7 @@ A simple batch file to install a GSI on a Xiaomi device (if the user has no know
 
 ## Download + Setup
 
-1. Download the correct batch file. More info in Releases tab.
+1. Download the correct batch file from directory. More info in Releases tab.
 2. Copy batch file to directory where GSI is located.
 3. Rename your GSI to system.img
 4. Run the installer and let it do its thing
