@@ -1,7 +1,10 @@
 @echo off
 
-echo Installing GSI on A only device
+echo Disabling verification
+fastboot --disable-verification flash vbmeta vbmeta.img
+TIMEOUT /T 3
 
+echo Installing GSI on A only device
 fastboot reboot fastboot
 echo Erasing system
 fastboot erase system
